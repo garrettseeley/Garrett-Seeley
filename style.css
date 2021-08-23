@@ -1,10 +1,28 @@
 body {
     font-family: Helvetica, sans-serif;
-    background-color:lightskyblue
+    background-color: white;
+    color: #343332;
 }
 
 header {
     background-color: #343332;
-    color: lightblue;
+    color: lightgray;
     text-align: center;
+    margin: 20px;
+}
+
+.pictures {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+
+div {
+    margin: auto;
+    width: 50%;
+}
+
+p {
+    margin-top: -10px;
 }
