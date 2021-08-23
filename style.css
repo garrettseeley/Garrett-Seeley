@@ -1,28 +1,30 @@
+/* formatting for the body that applies to all containers */
 body {
     font-family: Helvetica, sans-serif;
     background-color: white;
     color: #343332;
+    padding: 20px;
 }
-
+/* formatting for the header to separate it from the main container */
 header {
     background-color: #343332;
     color: lightgray;
     text-align: center;
     margin: 20px;
 }
-
+/* text formatting */
 header h1 {
     font-size: 72px;
     margin-bottom: 20px;
 }
-
+/* setting the size of pictures */
 .pictures {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    width: 500px;
 }
-
+/* size formatting of the div containers to be uniform */
 div {
     margin: auto;
     width: 600px;
@@ -31,9 +33,20 @@ div {
 p {
     margin-top: -10px;
 }
-
+/* size formatting for the horizontal rule */
 hr {
     width: 600px;
     height: 2px;
     background: black;
 }
+
+footer {
+    background-color: #615F5D;
+    color:white;
+    margin: 20px
+}
+/* pseudoclass styling */
+a:link      { color: lightgreen;}
+a:visited   { color: white;}
+a:hover     { color: lightskyblue;}
+a:active    { color: lightslategray}
